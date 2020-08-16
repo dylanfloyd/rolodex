@@ -35,8 +35,8 @@ class FirstViewController: UIViewController {
     func pickRandomName() -> String
     {
         var namelist = [""]
-        let friends = ["Alden Reiman", "Alek Matthiessen","Daniel Furman", "Eric Foley", "Thomas Mahoney", "Josh Kulas", "Patrick Berry", "Louie Fernandez-Rocha", "Hope Roberts", "Emily Smith", "Richard Tulis", "Erica Swope", "Grace Murphy", "Megan Culberson", "Kirk Dumont", "Ian Flink", "Soham Bose", "Ryan Duckworth"]
-        let family = ["Mom", "Dad", "Walter", "Rebecca", "Nick", "Kelly", "Jess", "Brooke", "Lydia", "Brad", "Aunt Jan", "Uncle Rick", "Uncle Paul", "Sean Floyd", "Ryan Floyd", "Aunt Susan", "Aunt Elizabeth", "Mimi", "Katie Johnson", "Kyle Fischer", "Aunt Linda", "Ryan Fischer", "Amanda Brown", "Andrew Brown"]
+        let friends = ["Reiman, A.", "Matthiessen, A.","Furman, D.", "Foley, E.", "Mahoney, T.", "Kulas, J.", "Berry, P.", "Fernandez-Rocha, L.", "Roberts, H.", "Smith, E.", "Tulis, R.", "Swope, E.", "Murphy, G.", "Culberson, M.", "Dumont, K.", "Flink, I.", "Bose, S.", "Duckworth, R."]
+        let family = ["Mom", "Dad", "Walter", "Rebecca", "Nick", "Kelly", "Jess", "Brooke", "Lydia", "Brad", "Aunt Jan", "Uncle Rick", "Uncle Paul", "Sean", "Aunt Susan", "Aunt Elizabeth", "Mimi", "Katie", "Kyle", "Aunt Linda", "Ryan", "Brown, A."]
         let coin = Int.random(in: 0...1)
         
         if coin == 0 {
@@ -59,7 +59,7 @@ class FirstViewController: UIViewController {
     
 
     @IBAction func callButtonPressed(_ sender: UIButton) {
-        makePhoneCall(phoneNumber: "4044355433")
+        makePhoneCall(phoneNumber: "4048675309")
         //Calls Dylan's cell
     }
     
